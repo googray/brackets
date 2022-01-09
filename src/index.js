@@ -1,6 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
   let stack = [];
-  let arr = bracketsConfig.flat();
+  // let arr = bracketsConfig.flat();
   for (let i = 0; i < str.length; i++) {
     if (
       (str[i].length > 0 &&
